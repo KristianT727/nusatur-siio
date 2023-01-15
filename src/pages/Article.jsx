@@ -4,14 +4,12 @@ import Heroarticle from "../components/Heroarticle";
 import HOC from "../components/HOC";
 
 const Article = () => {
-  return (
-    <HOC headerTitle="Article">
-      <Heroarticle />
-      <Detailarticle />
-
-      <h1 style={{ marginTop: "100px" }}></h1>
-    </HOC>
-  );
+    return (
+        <HOC headerTitle="Article">
+            <Heroarticle />
+            <Detailarticle />
+        </HOC>
+    );
 };
 
 export default Article;
