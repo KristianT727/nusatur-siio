@@ -1,16 +1,26 @@
-.card-container {
-  width: 395px;
-  height: 600px;
+.card-containerr {
+  position: absolute;
+  width: 288px;
+  height: 275px;
+  left: 1200px;
+  top: 799px;
   border: none;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
-.btn-rekomendasi button {
+.btn-artikel button {
+  display: flex;
+  align-items: flex-start;
   background-color: #d10000;
-  width: 125px;
-  height: 37px;
+  position: absolute;
+  width: 121px;
+  height: 40px;
+  left: 83px;
+  top: 230px;
+
   border: none;
+  flex-direction: row;
   margin-bottom: 20px;
   transition: all ease-out 0.3s;
 }
@@ -26,9 +36,14 @@
   text-decoration: none;
 }
 
-.btn-rekomendasi button:hover {
-  width: 125px;
-  height: 37px;
+.btn-artikel button:hover {
+  width: 121px;
+  left: 83px;
+  top: 223px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 40px;
   border: none;
   margin-bottom: 20px;
   border: solid #d10000;

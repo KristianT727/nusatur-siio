@@ -4,7 +4,12 @@ import "../styles/artikelblog.css";
 import { Clock } from "react-bootstrap-icons";
 import { NavLink } from "react-router-dom";
 
-const Travelblogcardcomp = ({ artikelimage, artikeljudul, artikeltanggal, to }) => {
+const Travelblogcardcomp = ({
+  artikelimage,
+  artikeljudul,
+  artikeltanggal,
+  to,
+}) => {
   return (
     <div className="mt-5" style={{ alignItems: "center" }}>
       <Card
@@ -13,6 +18,7 @@ const Travelblogcardcomp = ({ artikelimage, artikeljudul, artikeltanggal, to }) 
           width: "20rem",
           boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.25)",
           borderRadius: "10px",
+          left: "55px",
         }}
       >
         <div>

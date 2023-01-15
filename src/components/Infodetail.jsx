@@ -1,14 +1,13 @@
 import React from "react";
-import { Container,Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "../styles/infodetail.css";
 import Cardrekomendasi from "./Cardrekomendasi";
-import imgbali1 from "../img/imgbali1.png"
-import imgbali2 from "../img/imgbali2.png"
-import imgbali3 from "../img/imgbali3.png"
-import {DETAIL} from "../routes"
+import imgbali1 from "../img/imgbali1.png";
+import imgbali2 from "../img/imgbali2.png";
+import imgbali3 from "../img/imgbali3.png";
+import { DETAIL } from "../routes";
 import Boxhubungi from "./Boxhubungi";
 import { NavLink } from "react-router-dom";
-
 
 const Infodetail = () => {
   return (
@@ -83,6 +82,7 @@ const Infodetail = () => {
           </div>
         </div>
       </section>
+
       <div className="btn-infodetail text-center">
         <NavLink to={`${DETAIL}/form`}>
           <button>Pesan Sekarang</button>

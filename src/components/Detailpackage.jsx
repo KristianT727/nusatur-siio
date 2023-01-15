@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import { PACKAGE } from "../routes";
 
 import { Col, Container, Row } from "react-bootstrap";
@@ -10,8 +10,7 @@ import medan from "../img/medan.png";
 import palembang from "../img/palembang.png";
 import semarang from "../img/semarang.png";
 import surabaya from "../img/surabaya.png";
-import Popularplacescard from "../components/Popularplacescard"
-
+import Popularplacescard from "../components/Popularplacescard";
 
 const Detailpackage = () => {
   return (
