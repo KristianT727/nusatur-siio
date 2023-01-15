@@ -1,11 +1,13 @@
-.row-article{
-    float: left;
+.table table,
+th,
+td {
+  border: none;
 }
 
-.column1-article{
-    width: 70%;
-}
-
-.column2-article{
-    width: 30%;
+.garis-bawah-detail {
+  background: #d10000;
+  width: 903px;
+  margin-left: 40px;
+  height: 5px;
+  border-radius: 5px;
 }
