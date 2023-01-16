@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Image } from "react-bootstrap";
 import reogImage from "../img/gallery/Reog.png";
 import adatImage from "../img/gallery/Adat.png";
@@ -10,15 +10,15 @@ import cantingImage from "../img/gallery/Canting.png";
 import tenunImage from "../img/gallery/Tenun.png";
 import sapiImage from "../img/gallery/Sapi.png";
 import "../styles/styletableimg.css";
-import AOS from "aos" //for animation
-import 'aos/dist/aos.css' 
+import AOS from "aos"; //for animation
+import "aos/dist/aos.css";
 
 const Galleryimg = () => {
   useEffect(() => {
-    AOS.init({duration: 1500});
+    AOS.init({ duration: 1500 });
   }, []);
   return (
-    <section className="container gallery"  data-aos="fade-up">
+    <section className="container gallery" data-aos="fade-up">
       <section className="gallery-1">
         <div className="container-img">
           <Image src={reogImage} alt="img" className="images" />
@@ -27,7 +27,7 @@ const Galleryimg = () => {
           </div>
         </div>
 
-        <div className="container-img" >
+        <div className="container-img">
           <Image src={kuningImage} alt="img" className="images" />
           <div className="contentimg">
             <p>Desa Bersih</p>
@@ -41,7 +41,7 @@ const Galleryimg = () => {
           </div>
         </div>
       </section>
-      <section className="gallery-2-container"  data-aos="fade-up">
+      <section className="gallery-2-container" data-aos="fade-up">
         <section className="gallery-2">
           <div className="container-img">
             <Image src={samanImage} alt="img" className="images" />
@@ -72,7 +72,7 @@ const Galleryimg = () => {
           </div>
         </div>
       </section>
-      <section className="gallery-3"  data-aos="fade-up">
+      <section className="gallery-3" data-aos="fade-up">
         <div className="container-img">
           <Image src={cantingImage} alt="img" className="images" />
           <div className="contentimg">
@@ -86,7 +86,7 @@ const Galleryimg = () => {
           </div>
         </div>
       </section>
-      <section className="gallery-1"  data-aos="fade-up">
+      <section className="gallery-1" data-aos="fade-up">
         <div className="container-img">
           <Image src={reogImage} alt="img" className="images" />
           <div className="contentimg">
@@ -106,9 +106,9 @@ const Galleryimg = () => {
           </div>
         </div>
       </section>
-    <div className="btn-gallery text-center">
-      <button>Read More</button>
-    </div>
+      <div className="btn-gallery text-center">
+        <button>Read More</button>
+      </div>
     </section>
   );
 };

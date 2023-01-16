@@ -6,6 +6,8 @@ import img3 from "../img/Frame3.png";
 import img4 from "../img/Frame4.png";
 import img5 from "../img/Frame5.png";
 import "../styles/slider.css";
+import { KEBUDAYAAN } from "../routes";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -13,7 +15,14 @@ const Slider = () => {
       <Container>
         <Carousel>
           <Carousel.Item>
-            <img className="m-auto d-block w-50" src={img1} alt="First slide" />
+            <Link to={KEBUDAYAAN}>
+              <img
+                className="m-auto d-block w-50"
+                src={img1}
+                alt="First slide"
+              />
+            </Link>
+
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
