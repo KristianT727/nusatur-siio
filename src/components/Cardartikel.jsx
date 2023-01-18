@@ -14,41 +14,45 @@ const Cardartikel = ({ img, title, price, subtitle, list = [], to }) => {
             alt=""
             className="card-imgg"
             style={{
-              width: "288px",
-              height: "146.63px",
+              width: "295px",
+              height: "146px",
               left: "0px",
               top: "0px",
             }}
           ></img>
-          <h3
+          <div
             style={{
-              fontSize: "16px",
-              width: "166.24px",
-              height: "16.94px",
-              position: "absolute",
-              fontWeight: "600px",
-              lineHeight: "19px",
-              left: "67px",
-              top: "155px",
+              display: "flex",
+              alignItems: "center",
+              flexDirection: "column",
             }}
           >
-            {title}
-          </h3>
-          <h5
-            style={{
-              fontSize: "16px",
-              position: "absolute",
-              fontWeight: "600",
-              textAlign: "center",
-              width: "87px",
-              height: "38px",
-              lineHeight: "19px",
-              left: "98px",
-              top: "175px",
-            }}
-          >
-            {price}
-          </h5>
+            <h3
+              style={{
+                fontSize: "16px",
+                width: "166.24px",
+                height: "38px",
+                fontWeight: "600px",
+                lineHeight: "19px",
+                textAlign: "center",
+              }}
+            >
+              {title}
+            </h3>
+
+            <h5
+              style={{
+                fontSize: "16px",
+                fontWeight: "600",
+                textAlign: "center",
+                width: "87px",
+                height: "20px",
+                lineHeight: "19px",
+              }}
+            >
+              {price}
+            </h5>
+          </div>
           <p style={{ fontSize: "14px", width: "296px", margin: "15px auto" }}>
             {subtitle}
           </p>

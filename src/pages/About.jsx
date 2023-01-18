@@ -4,7 +4,7 @@ import HOC from "../components/HOC";
 import Ourteam from "../components/Ourteam";
 import Weare from "../components/Weare";
 import Wedo from "../components/Wedo";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 const About = () => {
   return (

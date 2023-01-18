@@ -8,8 +8,6 @@ const Article = () => {
     <HOC headerTitle="Article">
       <Heroarticle />
       <Detailarticle />
-
-      <h1 style={{ marginTop: "100px" }}></h1>
     </HOC>
   );
 };

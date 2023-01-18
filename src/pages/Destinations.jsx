@@ -1,18 +1,18 @@
-import HOC from "../components/HOC"; 
-import Popularplaces from "../components/Popularplaces"; 
-import Articlebloghome from "../components/Articlebloghome"
-import Footer from "../components/Footer"
- 
-const Destinations = () => { 
-  return ( 
-    <HOC headerTitle="Destinations"> 
-      <Popularplaces /> 
+import HOC from "../components/HOC";
+import Popularplaces from "../components/Popularplaces";
+import Articlebloghome from "../components/Articlebloghome";
+import Footer from "../components/Footer";
+
+const Destinations = () => {
+  return (
+    <HOC headerTitle="Destinations">
+      <Popularplaces />
       <Articlebloghome />
       <Footer />
-    </HOC> 
-  ); 
-}; 
- 
+    </HOC>
+  );
+};
+
 export default Destinations;
 
 // import { Container } from "react-bootstrap";

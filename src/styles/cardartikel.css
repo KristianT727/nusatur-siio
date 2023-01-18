@@ -1,9 +1,9 @@
 .card-containerr {
-  position: absolute;
-  width: 288px;
-  height: 275px;
-  left: 1200px;
-  top: 799px;
+  position: relative;
+  width: 296px;
+  height: px;
+  left: 65px;
+  top: 100px;
   border: none;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -13,7 +13,7 @@
   display: flex;
   align-items: flex-start;
   background-color: #d10000;
-  position: absolute;
+  position: relative;
   width: 121px;
   height: 40px;
   left: 83px;

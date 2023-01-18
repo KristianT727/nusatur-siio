@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
-
 import "../styles/detailarticle.css";
 import herokebudayaan from "../img/hero-article.png";
 import artikel1 from "../img/fotoartikel1.png";
@@ -23,7 +22,12 @@ const Kebudayaan = () => {
         src={herokebudayaan}
         alt="img"
         className="kebudayaan"
-        style={{ width: "1900px", height: "500px", top: "0px " }}
+        style={{
+          width: "1900px",
+          height: "500px",
+          top: "0px ",
+          margin: "auto",
+        }}
       />
       <Container>
         <h1
@@ -31,7 +35,7 @@ const Kebudayaan = () => {
             textAlign: "center",
             width: "960px",
             left: "101px",
-            margin: "10px",
+            marginLeft: "180px",
             fontSize: "48px",
             fontWeight: "600",
           }}
@@ -41,7 +45,7 @@ const Kebudayaan = () => {
         </h1>
         <div className="garis-bawah-detail"></div>
         <section className="table">
-          <table style={{ margin: "30px" }}>
+          <table style={{ margin: "auto" }}>
             <tr>
               <th>
                 <Image
@@ -51,24 +55,6 @@ const Kebudayaan = () => {
                   style={{ width: "903px", border: "none" }}
                 />
               </th>
-              <tr>
-                <h2
-                  style={{
-                    position: "absolute",
-                    width: "297px",
-                    height: "28px",
-                    left: "1200px",
-                    top: "744px",
-                    fontSize: "24px",
-                    fontStyle: "normal",
-                    fontWeight: "600",
-                    fontFamily: "Poppins",
-                    color: "#000000",
-                  }}
-                >
-                  Rekomendasi Paket
-                </h2>
-              </tr>
             </tr>
 
             <tr>
@@ -95,8 +81,8 @@ const Kebudayaan = () => {
           </table>
 
           {/* Melasti */}
-          <h3 style={{ margin: "30px" }}>1.Upacara Adat Melasti - Bali</h3>
-          <table style={{ margin: "30px" }}>
+          <h3 style={{ marginLeft: "200px" }}>1.Upacara Adat Melasti - Bali</h3>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <td colSpan={2}>
                 <Image
@@ -149,10 +135,10 @@ const Kebudayaan = () => {
           </table>
 
           {/* Kebo Keboan */}
-          <h3 style={{ margin: "30px" }}>
+          <h3 style={{ marginLeft: "200px" }}>
             2.Kebo Keboan - Banyumas, Jawa Timur
           </h3>
-          <table style={{ margin: "30px" }}>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <td colSpan={2}>
                 <Image
@@ -206,10 +192,10 @@ const Kebudayaan = () => {
           </table>
 
           {/* Mekikuwa */}
-          <h3 style={{ margin: "30px" }}>
+          <h3 style={{ marginLeft: "200px" }}>
             3.Mekikuwa - Manado, Sulawesi Utara
           </h3>
-          <table style={{ margin: "30px" }}>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <td colSpan={2}>
                 <Image
@@ -261,8 +247,8 @@ const Kebudayaan = () => {
             </tr>
           </table>
         </section>
-        <Articlebloghome />
       </Container>
+      <Articlebloghome />
       <Footer />
     </>
   );

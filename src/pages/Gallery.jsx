@@ -19,11 +19,11 @@ export default Gallery;
 
 // const Gallery = () => {
 //     return (
-        
+
 //             <HOC headerTitle="Gallery">
-                        
+
 //             </HOC>
-        
+
 //     );
 // };
 

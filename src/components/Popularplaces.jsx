@@ -20,10 +20,9 @@ import solo from "../img/solo.png";
 import samarinda from "../img/samarinda.png";
 import madura from "../img/madura.png";
 import {} from "react-bootstrap";
-import {PACKAGE} from "../routes"
+import { PACKAGE } from "../routes";
 
 const Popularplacescomp = () => {
-
   return (
     <>
       <Container>
@@ -106,27 +105,27 @@ const Popularplacescomp = () => {
           <nav class="pagination-outer" aria-label="Page navigation">
             <ul class="pagination pagination-sm justify-content-center">
               <li class="page-item">
-                <a href="#" class="page-link" aria-label="Previous">
+                <a href="/" class="page-link" aria-label="Previous">
                   <span aria-hidden="true">&lt;</span>
                 </a>
               </li>
               <li class="page-item active">
-                <a class="page-link" href="#">
+                <a class="page-link" href="/">
                   1
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#">
+                <a class="page-link" href="/">
                   2
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#">
+                <a class="page-link" href="/">
                   3
                 </a>
               </li>
               <li class="page-item">
-                <a href="#" class="page-link" aria-label="Next">
+                <a href="/" class="page-link" aria-label="Next">
                   <span aria-hidden="true">&gt;</span>
                 </a>
               </li>

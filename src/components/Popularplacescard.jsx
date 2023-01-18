@@ -9,7 +9,7 @@ const Popularplacescardcomp = ({ kotapict, kotaname, to }) => {
         <NavLink to={to}>
           <img src={kotapict} alt="Foto" className="img-kota-pict" />
           <div className="card-kota-text">
-            <p style={{ fontSize: "24px", fontWeight:"600" }}>{kotaname}</p>
+            <p style={{ fontSize: "24px", fontWeight: "600" }}>{kotaname}</p>
           </div>
         </NavLink>
       </div>

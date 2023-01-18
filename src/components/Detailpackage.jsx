@@ -98,6 +98,22 @@ const Detailpackage = () => {
             to={`${PACKAGE}/detail`}
           />
         </Col>
+        <Col>
+          <Cardrekomendasi
+            img={imgbali2}
+            title="Paket Bali B 1 Hari"
+            price="Start from Rp475.000"
+            subtitle="Paket ini merupakan paket budaya 1 hari yang memberikan kesan kepada wisatawan dengan adanya tarian kecak di uluwatu..."
+            list={[
+              "Tanah Lot",
+              "Pura Penyawang",
+              "Pura Baru Mejan",
+              "Batu Bolong",
+              "lain-lainnya",
+            ]}
+            to={`${PACKAGE}/detail`}
+          />
+        </Col>
       </Row>
       <h1 style={{ marginTop: "50px" }}>Wisata Kota Lainnya</h1>
       <div

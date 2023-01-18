@@ -1,17 +1,14 @@
-import {Helmet} from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
 
-
-const HOC = ({children, headerTitle = "Nusatur"}) => {
-    return (
-        <>
-        <Helmet>
-            <title>
-                {headerTitle}
-            </title>
-        </Helmet>
-        {children}
-        </>
-    );
+const HOC = ({ children, headerTitle = "Nusatur" }) => {
+  return (
+    <>
+      <Helmet>
+        <title>{headerTitle}</title>
+      </Helmet>
+      {children}
+    </>
+  );
 };
 
 export default HOC;

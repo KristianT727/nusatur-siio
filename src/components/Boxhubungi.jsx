@@ -18,10 +18,21 @@ const Boxhubungi = () => {
           <img src={dot1} alt="" className="img2-explore" />
           <h5>
             Hubungi kami jika ingin melakukan wisata secara custom atau ada
-            pertanyaan terkait layanan kami
+            pertanyaan terkait layanan kami <br />
+            <br />
           </h5>
-          <a href="https://wa.me/6289519680668?text=Aku%20ingin%20melakukan%20reservasi%20kak">
-            <Whatsapp size={20} /> +62 8111 2222 3333{" "}
+          <a
+            href="https://wa.me/6289519680668?text=Aku%20ingin%20custom%20reservasi%20kak"
+            style={{
+              textDecoration: "none",
+              color: "red",
+              background: "#F3F3F3",
+              padding: "10px 20px",
+              borderRadius: "5px",
+              justifyContent: "center",
+            }}
+          >
+            <Whatsapp size={20} /> +62 895 1968 0668{" "}
           </a>
         </div>
       </div>

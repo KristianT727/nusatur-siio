@@ -21,19 +21,43 @@ const Contactuscomp = () => {
             <div>
               <div style={{ marginBottom: "15px", fontSize: "32px" }}>
                 <Whatsapp size={35} />
-                <a style={{ marginLeft: "18px", fontSize: "20px" }}>
-                  +62 8111 2222 3333
+                <a
+                  href="https://wa.me/6289519680668?text=Aku%20ingin%20custom%20reservasi%20kak"
+                  style={{
+                    marginLeft: "18px",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    color: "black",
+                  }}
+                >
+                  +62 895 1968 0668
                 </a>
               </div>
               <div style={{ marginBottom: "15px" }}>
                 <Envelope size={35} />
-                <a style={{ marginLeft: "18px", fontSize: "20px" }}>
+                <a
+                  href="/"
+                  style={{
+                    marginLeft: "18px",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    color: "black",
+                  }}
+                >
                   nusatur2022@gmail.com
                 </a>
               </div>
               <div style={{ marginBottom: "50px" }}>
                 <Calendar3 size={35} />
-                <a style={{ marginLeft: "18px", fontSize: "20px" }}>
+                <a
+                  href="/"
+                  style={{
+                    marginLeft: "18px",
+                    fontSize: "20px",
+                    textDecoration: "none",
+                    color: "black",
+                  }}
+                >
                   Senin - Minggu | 07:00 am - 17:00 pm
                 </a>
               </div>

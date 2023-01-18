@@ -18,7 +18,7 @@ const Detailarticle = () => {
             textAlign: "center",
             width: "960px",
             left: "101px",
-            margin: "10px",
+            marginLeft: "200px",
             fontSize: "48px",
             fontWeight: "600",
           }}
@@ -28,7 +28,7 @@ const Detailarticle = () => {
         </h1>
         <div className="garis-bawah-detail"></div>
         <section className="table">
-          <table style={{ margin: "30px" }}>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <th>
                 <Image
@@ -61,7 +61,7 @@ const Detailarticle = () => {
             </tr>
           </table>
 
-          <table style={{ margin: "30px" }}>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <th rowSpan={3}>
                 <Image
@@ -98,7 +98,7 @@ const Detailarticle = () => {
             </tr>
           </table>
 
-          <table style={{ margin: "30px" }}>
+          <table style={{ marginLeft: "200px" }}>
             <tr>
               <td
                 colSpan={5}
@@ -129,8 +129,8 @@ const Detailarticle = () => {
             </tr>
           </table>
         </section>
-        <Articlebloghome />
       </Container>
+      <Articlebloghome />
       <Footer />
     </>
   );
