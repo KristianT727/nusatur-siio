@@ -8,6 +8,7 @@ import imgbali3 from "../img/imgbali3.png"
 import {DETAIL} from "../routes"
 import Boxhubungi from "./Boxhubungi";
 import { NavLink } from "react-router-dom";
+import Testimonial from "./Testimonial";
 
 
 const Infodetail = () => {
@@ -88,6 +89,12 @@ const Infodetail = () => {
           <button>Pesan Sekarang</button>
         </NavLink>
       </div>
+
+      <h1>Testimoni</h1>
+      <div className="garismerahinfo"></div>
+      <Testimonial>
+
+      </Testimonial>
 
       <h1>Paket Bali Lainnya</h1>
       <div className="garismerahinfo"></div>

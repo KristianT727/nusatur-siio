@@ -4,6 +4,7 @@ import Detailpackage from '../components/Detailpackage';
 import Footer from '../components/Footer';
 import Heropackage from '../components/Heropackage';
 import HOC from "../components/HOC";
+import Testimonial from '../components/Testimonial';
 
 const Package = () => {
   return (
