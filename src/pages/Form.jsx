@@ -5,6 +5,17 @@ import "../styles/stylesformreservasi.css";
 import Footer from "../components/Footer";
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import Swal from "sweetalert2";
+
+const showAlert = () => {
+  Swal.fire({
+    icon: "success",
+    title: "Terimakasih telah melakukan reservasi",
+    text: "Kami akan segera menghubungi anda terkait detail pemesanan dan total pembayaran",
+    width: "500px",
+    height: "200px",
+  });
+};
 
 const Form = () => {
   const { register, handleSubmit } = useForm();
@@ -99,6 +110,7 @@ const Form = () => {
               <div className="form-group row">
                 <div>
                   <button
+                    onClick={showAlert}
                     type="submit"
                     style={{
                       background: "#D10000",
