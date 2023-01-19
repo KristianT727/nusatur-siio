@@ -3,8 +3,24 @@ import { Container } from "react-bootstrap";
 import formreservasi from "../img/formreservasi.png";
 import "../styles/stylesformreservasi.css";
 import Footer from "../components/Footer";
+import { useForm } from "react-hook-form";
+import axios from "axios";
 
 const Form = () => {
+  const { register, handleSubmit } = useForm();
+
+  const onSubmit = async (value) => {
+    try {
+      const { data } = await axios.post(
+        `${process.env.REACT_APP_API}/reservasi`,
+        value
+      );
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return (
     <>
       <Container>
@@ -24,17 +40,25 @@ const Form = () => {
                 </h4>
               </div>
             </div>
-            <form>
+            <form onSubmit={handleSubmit(onSubmit)}>
               <div className="form-group row">
                 <label className="col-sm-3 col-form-label">Nama Pemesan</label>
                 <div className="col-sm-9 m-auto">
-                  <input type="text" className="form-control" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    {...register("nama", { required: true })}
+                  />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-sm-3 col-form-label">Email</label>
                 <div className="col-sm-9 m-auto">
-                  <input type="email" className="form-control" />
+                  <input
+                    type="email"
+                    className="form-control"
+                    {...register("email", { required: true })}
+                  />
                 </div>
               </div>
               <div className="form-group row">
@@ -42,13 +66,21 @@ const Form = () => {
                   No Telepon
                 </label>
                 <div className="col-sm-9 mt-3 mb-3">
-                  <input type="text" className="form-control" />
+                  <input
+                    type="number"
+                    className="form-control"
+                    {...register("phoneNumber", { required: true })}
+                  />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-sm-3 col-form-label">Tanggal</label>
                 <div className="col-sm-9 m-auto">
-                  <input type="date" className="form-control" />
+                  <input
+                    type="date"
+                    className="form-control"
+                    {...register("date", { required: true })}
+                  />
                 </div>
               </div>
               <div className="form-group row">
@@ -56,7 +88,11 @@ const Form = () => {
                   Jumlah Orang Dewasa
                 </label>
                 <div className="col-sm-9 m-auto">
-                  <input type="number" className="form-control" />
+                  <input
+                    type="number"
+                    className="form-control"
+                    {...register("qty", { required: true })}
+                  />
                 </div>
               </div>
 

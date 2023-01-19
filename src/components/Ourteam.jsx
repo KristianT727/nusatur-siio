@@ -66,6 +66,29 @@ const Ourteamcomp = () => {
                   />
                 </Col>
               </Row>
+              <Row>
+                <Col>
+                  <Ourteamcard
+                    ourpict={tika}
+                    name="Tika"
+                    job="Marketing Head"
+                  />
+                </Col>
+                <Col>
+                  <Ourteamcard
+                    ourpict={bintang}
+                    name="Bintang"
+                    job="Founder - CEO"
+                  />
+                </Col>
+                <Col>
+                  <Ourteamcard
+                    ourpict={fahri}
+                    name="Fahri"
+                    job="Lead Developer"
+                  />
+                </Col>
+              </Row>
             </Container>
           </div>
         </div>
