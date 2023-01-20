@@ -7,6 +7,9 @@ import bintang from "../img/bintang.png";
 import fahri from "../img/fahri.png";
 import kristian from "../img/kristian.png";
 import nafiz from "../img/nafiz.png";
+import sunia from "../img/sunia.png";
+import siti from "../img/siti.png";
+import rizal from "../img/rizal.png";
 import {} from "react-bootstrap";
 
 const Ourteamcomp = () => {
@@ -68,25 +71,17 @@ const Ourteamcomp = () => {
               </Row>
               <Row>
                 <Col>
-                  <Ourteamcard
-                    ourpict={tika}
-                    name="Tika"
-                    job="Marketing Head"
-                  />
+                  <Ourteamcard ourpict={sunia} name="Sunia" job="AFK Mentee" />
                 </Col>
                 <Col>
                   <Ourteamcard
-                    ourpict={bintang}
-                    name="Bintang"
-                    job="Founder - CEO"
+                    ourpict={siti}
+                    name="Siti"
+                    job="Quality Assurance"
                   />
                 </Col>
                 <Col>
-                  <Ourteamcard
-                    ourpict={fahri}
-                    name="Fahri"
-                    job="Lead Developer"
-                  />
+                  <Ourteamcard ourpict={rizal} name="Rizal" job="Staff" />
                 </Col>
               </Row>
             </Container>
