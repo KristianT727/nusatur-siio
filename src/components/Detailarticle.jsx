@@ -46,6 +46,7 @@ const Detailarticle = () => {
                   height: "14px",
                   fontSize: "22px",
                   border: "none",
+                  textAlign: "justify",
                 }}
               >
                 Terbentuk dari perbukitan terjal di Bukit Peninsula Bali, patung
