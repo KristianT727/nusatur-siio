@@ -1,11 +1,34 @@
-.row-article{
+.article h1, .article h4 {
+    font-weight: bold;
+  }
+  
+  .article .redline {
+    margin-top: 20px;
+    border-bottom: #D10000 3px solid;
+  }
+  
+  .artikelimg {
+    width: 100%;
+  }
+  
+  .artikelimgfloat {
+    width: 50%;
     float: left;
-}
-
-.column1-article{
-    width: 70%;
-}
-
-.column2-article{
-    width: 30%;
-}
+    margin: 15px 15px 0px 0;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .row-article{
+      float: left;
+  }
+  
+  .column1-article{
+      width: 70%;
+  }
+  
+  .column2-article{
+      width: 30%;
+  }

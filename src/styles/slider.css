@@ -1,6 +1,18 @@
-.container-slider{
-    position: absolute;
-    top: 250px;
-    
-    
-}
+@media (min-width: 576px) {
+    .container-slider {
+      margin-top: -10vh;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container-slider {
+      margin-top: -15vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-slider {
+      margin-top: -25vh;
+      padding: 0px 200px;
+    }
+  }
