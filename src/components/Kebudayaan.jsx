@@ -81,7 +81,9 @@ const Kebudayaan = () => {
           </table>
 
           {/* Melasti */}
-          <h3 style={{ marginLeft: "200px" }}>1.Upacara Adat Melasti - Bali</h3>
+          <h3 style={{ marginLeft: "200px", marginTop: "30px" }}>
+            1.Upacara Adat Melasti - Bali
+          </h3>
           <table style={{ marginLeft: "200px" }}>
             <tr>
               <td colSpan={2}>
@@ -135,7 +137,7 @@ const Kebudayaan = () => {
           </table>
 
           {/* Kebo Keboan */}
-          <h3 style={{ marginLeft: "200px" }}>
+          <h3 style={{ marginLeft: "200px", marginTop: "30px" }}>
             2.Kebo Keboan - Banyumas, Jawa Timur
           </h3>
           <table style={{ marginLeft: "200px" }}>
@@ -192,7 +194,7 @@ const Kebudayaan = () => {
           </table>
 
           {/* Mekikuwa */}
-          <h3 style={{ marginLeft: "200px" }}>
+          <h3 style={{ marginLeft: "200px", marginTop: "30px" }}>
             3.Mekikuwa - Manado, Sulawesi Utara
           </h3>
           <table style={{ marginLeft: "200px" }}>
