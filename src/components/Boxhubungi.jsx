@@ -22,7 +22,7 @@ const Boxhubungi = () => {
             <br />
           </h5>
           <a
-            href="https://wa.me/6289519680668?text=Aku%20ingin%20custom%20reservasi%20kak"
+            href="https://wa.me/6289519680668?text=Selamat%20Datang%20di%20Nusatur%20apakah%20anda%20ingin%20melakukan%20custom%20reservasi?"
             style={{
               textDecoration: "none",
               color: "red",
