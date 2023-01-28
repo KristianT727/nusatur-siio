@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Image } from "react-bootstrap";
 import "../styles/detailarticle.css";
+import HOC from "../components/HOC";
 import herokebudayaan from "../img/hero-article.png";
 import artikel1 from "../img/fotoartikel1.png";
 import melasti1 from "../img/Melasti1.png";
@@ -17,7 +18,7 @@ import Footer from "./Footer";
 
 const Kebudayaan = () => {
   return (
-    <>
+    <HOC headerTitle="Article Kebudayaan">
       <Image
         src={herokebudayaan}
         alt="img"
@@ -252,7 +253,7 @@ const Kebudayaan = () => {
       </Container>
       <Articlebloghome />
       <Footer />
-    </>
+    </HOC>
   );
 };
 

@@ -5,7 +5,7 @@ import HOC from "../components/HOC";
 
 const Article = () => {
   return (
-    <HOC headerTitle="Article">
+    <HOC headerTitle="Article Garuda Wisnu Kencana">
       <Heroarticle />
       <Detailarticle />
     </HOC>

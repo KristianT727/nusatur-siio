@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import formreservasi from "../img/formreservasi.png";
+import HOC from "../components/HOC";
 import "../styles/stylesformreservasi.css";
 import Footer from "../components/Footer";
 import { useForm } from "react-hook-form";
@@ -33,7 +34,7 @@ const Form = () => {
   };
 
   return (
-    <>
+    <HOC headerTitle="Form Reservasi">
       <Container>
         <section style={{ display: "flex" }}>
           <div className="card-formreservasi">
@@ -133,7 +134,7 @@ const Form = () => {
         </section>
       </Container>
       <Footer />
-    </>
+    </HOC>
   );
 };
 
